@@ -1,1 +1,118 @@
-1111
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>种草推荐网 - 品牌排行榜</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: #fff5f5;
+            color: #333;
+        }
+        header {
+            background-color: #d72638;
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        .intro {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .intro h1 {
+            color: #d72638;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product-card {
+            background: white;
+            width: 320px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+        .product-info {
+            padding: 20px;
+        }
+        .product-info h3 {
+            color: #d72638;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #d72638;
+            color: white;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .product-card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>种草推荐网</h1>
+        <p>发现值得买的好物，助你选择更好的品牌</p>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h1>精选品牌排行榜</h1>
+            <p>我们为您甄选各类商品排行榜，从日常生活到高端消费，助你轻松避雷，放心购买。</p>
+        </section>
+
+        <section class="product-list">
+            <div class="product-card">
+                <img src="https://q9.itc.cn/images01/20241121/4b483f69549745758a6d3d8d49a531ab.jpeg" alt="护肤品品牌排行榜" width="320px" height="320px">
+                <div class="product-info">
+                    <h3>品牌推荐：护肤品品牌排行榜</h3>
+                    <p>口碑最好的护肤品牌，天然成分，温和护肤，让肌肤焕发健康光彩。</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://a.zdmimg.com/202409/17/66e917545cdd97010.jpg_e680.jpg" alt="电子产品十大品牌">
+                <div class="product-info">
+                    <h3>品牌推荐：电子产品十大品牌</h3>
+                    <p>领先的电子科技品牌，性能强悍，品质保障，广受消费者喜爱。</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://pic.rmb.bdstatic.com/bjh/240808/dump/c77d57c6b967f03e9aacebd53dee5d6a.png" alt="家居用品哪个牌子好">
+                <div class="product-info">
+                    <h3>品牌推荐：家居用品哪个牌子好</h3>
+                    <p>让家居生活更有品质，设计美观实用，提升生活幸福感。</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 种草推荐网 | 精选好物，值得信赖</p>
+    </footer>
+</body>
+</html>
